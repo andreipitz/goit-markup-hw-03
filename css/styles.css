@@ -32,16 +32,13 @@ body {
   text-decoration-skip-ink: none;
   border-bottom: 1px solid #e7e9fc;
 }
-nav {
-  display: flex;
-}
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .navbar-div {
   display: flex;
-  align-items: center;
 }
 
 .span {
