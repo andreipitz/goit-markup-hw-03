@@ -20,21 +20,30 @@ body {
 }
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.nav-bar {
+.header-nav {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  border-bottom: 1px solid #e7e9fc;
+}
+nav {
   display: flex;
-  height: 72px;
 }
 .navigation {
   display: flex;
-  justify-content: flex-start;
 }
+
+.navbar-div {
+  display: flex;
+  align-items: center;
+}
+
 .span {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -60,8 +69,7 @@ body {
   color: #4d5ae5;
   line-height: 1.17;
   text-transform: uppercase;
-  margin-left: 156px;
-  margin-top: 24px;
+  margin-right: 76px;
 }
 
 .pages-link {
@@ -74,8 +82,6 @@ body {
   color: #2e2f42;
   display: flex;
   gap: 40px;
-  margin-top: 24px;
-  margin-left: 76px;
 }
 .pages-link-first {
   font-size: 16px;
@@ -102,6 +108,9 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
 }
+.edit-element {
+  padding: 24px 0;
+}
 .adress {
   font-style: normal;
 }
@@ -116,7 +125,6 @@ body {
 .adress-list {
   display: flex;
   gap: 40px;
-  margin-top: 24px;
   margin-left: 332px;
 }
 .adress-item {
