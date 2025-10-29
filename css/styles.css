@@ -296,8 +296,9 @@ body {
   color: #2e2f42;
   background-color: #ffffff;
 }
-.description-card.section-subtitle{
+.description-title {
   margin-bottom: 8px;
+  text-align: start;
 }
 
 .description-card {
