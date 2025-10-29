@@ -231,7 +231,6 @@ body {
   display: flex;
   height: 732px;
   width: auto;
-  margin-top: 120px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -239,20 +238,23 @@ body {
   background-color: #f4f4fd;
   height: 732px;
   width: auto;
+  padding: 120px 0;
 }
 .our-team-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin-top: 72px;
   margin-left: 156px;
 }
 .employee-description {
-  margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
+  padding: 32px 0;
+}
+.team-paragraphj {
+  text-align: center;
 }
 .portofolio {
   width: auto;
@@ -266,13 +268,22 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   margin-top: 72px;
+  row-gap: 24px;
+  justify-content: center;
 }
 .portofolio-item {
   height: 420px;
   width: 360px;
 }
 .portofolio-container {
-  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portofolio-description {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .section-title {
   font-size: 36px;
@@ -323,6 +334,7 @@ body {
   height: 312px;
   margin-top: 120px;
   width: auto;
+  padding: 100px 0;
 }
 .footer-text {
   font-family: Roboto;
@@ -353,7 +365,7 @@ body {
   color: #2e2f42;
   width: 190px;
   height: 40px;
-  margin-top: 120px;
+  margin-bottom: 72px;
   margin-left: 639px;
 }
 .our-team-item {
@@ -374,13 +386,14 @@ body {
   color: #2e2f42;
   line-height: 1.11;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .footer-div {
-  display: block;
+  display: inline-block;
   width: 264px;
   gap: 16px;
-  margin-top: 100px;
   margin-left: 156px;
+  margin-bottom: 16px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
