@@ -288,6 +288,7 @@ body {
   border-top: none;
   gap: 8px;
   justify-content: center;
+  margin-bottom: 8px;
 }
 .employee-title {
   margin-bottom: 8px;
@@ -337,12 +338,11 @@ body {
 .footer {
   background-color: #2e2f42;
   height: 312px;
-  display: inline-block;
+  display: flex;
   height: 312px;
   margin-top: 120px;
-  width: 100vh;
+  width: auto;
   padding: 100px 0;
-  margin-bottom: 16px;
 }
 .footer-text {
   font-family: Roboto;
@@ -397,11 +397,11 @@ body {
   margin-bottom: 72px;
 }
 .footer-div {
-  display: inline-block;
-  width: 264px;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
+  width: 264px;
   margin-left: 156px;
-  margin-bottom: 16px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
