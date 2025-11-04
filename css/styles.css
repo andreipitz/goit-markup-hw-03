@@ -257,6 +257,10 @@ body {
 .employee-description .team-paragraph {
   text-align: center;
 }
+.employee-description .employee-title {
+  margin-bottom: 8px;
+}
+
 .portofolio {
   width: auto;
   height: 1000x;
@@ -404,7 +408,6 @@ body {
   margin-left: 156px;
 }
 .footer-div a {
-  display: inline-block;
   margin-bottom: 16px;
 }
 .logo-footer {
@@ -419,6 +422,7 @@ body {
   color: #4d5ae5;
   line-height: 1.17;
   text-transform: uppercase;
+  display: inline-block;
 }
 .visually-hidden {
   position: absolute;
