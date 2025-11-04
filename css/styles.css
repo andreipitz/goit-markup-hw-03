@@ -401,7 +401,7 @@ body {
   margin-bottom: 72px;
 }
 .footer-div {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   gap: 16px;
   width: 264px;
@@ -409,7 +409,6 @@ body {
 }
 .footer-div .logo-footer {
   margin-bottom: 16px;
-  display: inline-block;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
