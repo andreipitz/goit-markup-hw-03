@@ -407,9 +407,11 @@ body {
   width: 264px;
   margin-left: 156px;
 }
-.footer a {
+.footer-div a {
   margin-bottom: 16px;
-  display: inline-block;
+}
+.footer .logo-footer {
+  display: inline-block4;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
