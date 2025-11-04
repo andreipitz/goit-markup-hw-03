@@ -222,6 +222,7 @@ body {
 .description {
   padding: 120px 0;
 }
+
 .description-list {
   display: flex;
   gap: 24px;
